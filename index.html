@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body id="body">
+    <h1>Todo App</h1>
+
+    <form class="input-group">
+      <input
+        type="text"
+        class="form-control"
+        id="form-control"
+        placeholder="Add a new task..."
+      />
+      <button class="btn" id="btn" type="button">+</button>
+      <select name="category" id="category">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+      </select>
+    </form>
+
+    <ul class="list" id="list"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
